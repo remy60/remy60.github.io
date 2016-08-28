@@ -1,0 +1,83 @@
+.bordphoto
+{
+    padding: 20px 0;
+}
+.photoidentite
+{
+    width: 130px;
+    border-radius: 100%;
+    border: solid grey 4px;
+}
+.adresse_et_numero_de_tel
+{
+    text-align:right;
+    font-size: 20px;
+}
+.entete
+{
+    background-color: #302C2D;
+    color: white;
+}
+
+
+.listeinfospersos
+{
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+.diplomes
+{
+    background-color: #398439;
+    height: 193px;
+}
+p{
+    font-size: 15px;
+}
+.experience
+{
+    background-color: #79BD8F;
+    height: 193px;
+}
+.loisirs
+{
+    background-color:greenyellow;
+    height: 193px;
+}
+
+#progressions{
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    background-image: url("/home/remy/cv/images/fond.jpeg");
+    animation-duration: 6s;
+    animation-name: slideout;
+}
+.para{
+    margin-left:10px;
+    margin-top: 5px;
+    text-align: center;
+    background-image: url("/home/remy/cv/images/fond.jpeg");
+    animation-duration: 5s;
+    animation-name: slideout;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+@keyframes slideout {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
